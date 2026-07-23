@@ -7,6 +7,7 @@ Environment=MONGO=true
 // highlight-start
 Environment=MONGO_URL="mongodb://{{ MONGODB_HOST }}:27017/catalogue"
 Environment=Tool="Ansible"
+Environment=Scope="Automation"
 // highlight-end
 ExecStart=/bin/node /app/server.js
 SyslogIdentifier=catalogue
